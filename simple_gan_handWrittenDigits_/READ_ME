@@ -1,0 +1,12 @@
+Source: https://medium.com/ai-society/gans-from-scratch-1-a-deep-introduction-with-code-in-pytorch-and-tensorflow-cb03cdcdba0f
+
+
+The dataset we’ll be using here is LeCunn’s MNIST dataset, consisting of about 60.000 black and white images of handwritten digits, 
+each with size 28x28 pixels
+
+The Discriminator network will take a flattened image as its input, and return the probability of it belonging to the real dataset,
+or the synthetic dataset.
+
+The Generative Network takes a latent variable vector as input, and returns a 784 valued vector, 
+which corresponds to a flattened 28x28 image. The purpose of this network is to learn how to create 
+undistinguishable images of hand-written digits, which is why its output is itself a new image.
