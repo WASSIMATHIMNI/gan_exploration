@@ -3,3 +3,5 @@
 */images
 */data/downloaded
 */data/generated
+*/models
+*/*.pt
