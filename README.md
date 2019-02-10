@@ -9,10 +9,10 @@ Areas of interest:
 
 Potential paths to explore (We will add other topics as we progress):
 
+- Explore recent text generation solutions with GANs (SeqGAN, LeakGAN & Adversarial Text Generation Without Reinforcement Learning)
 - Generation of fake documents/images to fool government processes in place (Proof of concept to understand the risks) [Carlos/Matt/Wassim]
 - Model Robustness (Better model training with noisy environment)
 - Semi-supervised methods (Case: Good discriminator with a small sample of labeled data)
-- Explore recent text generation solutions with GANs
 - Super-Resolution (SRGAN)
 - Text to Image (StackGAN) (Amir)
 - Image to Image (Pix2Pix) (Amir)
